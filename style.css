@@ -1,0 +1,132 @@
+body{
+    background-color: rgba(235, 242, 239, 0.514);
+    height: 210vh;
+}
+.wrapper{
+    max-width: 900px;
+     margin:auto;
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr ;
+    grid-template-rows:260px 100px 100px;
+    }
+    .item-1{
+       
+        grid-column-start:1;
+        grid-column-end:4;
+        background-color: rgb(231, 238, 235);
+    }
+    .contact-info h2{
+        margin-left: 10px;
+        font-size: 30px;
+        line-height: 10px;
+        font-weight: lighter;
+        margin-top: 20px;
+        color: rgb(12, 12, 231);
+    }
+    .contact-info h3{
+      font-size: 35px;
+      text-align: center;
+      color: crimson;
+    
+    }
+    .contact-info p{
+        font-size: 15px;
+        line-height: 20px;
+        margin-left: 10px;
+      
+       
+    }
+     .container {
+     margin-top:20px ;
+      margin-bottom: 0px;
+      width:900px;
+      font-size: 30px;
+      background-color: bisque;
+     }
+     .container label{
+      display: flex;
+      line-height: 50px;
+     }
+
+     .item-2{
+        grid-column-start: 1;
+        grid-column-end:4;
+        grid-row-start:2;
+        grid-row-end:4;
+        background-color: rgb(241, 246, 244);
+        border-radius: 20px;
+        
+    }
+     .name{
+         border-radius:10px;
+         border-style:groove;
+         height: 180px;
+         
+        
+         margin-bottom: 20px;
+     }
+      input{
+         border: none;
+         width: 250px;
+         height: 30px;
+         margin-left: 10px;
+         font-size: 20px;
+        
+     } 
+      label{
+     margin-left:10px;
+     
+      }
+      .phone{
+         border-radius:10px;
+         border-style:groove;
+         height: 180px;
+        
+         margin-bottom: 20px;
+      }
+      .email{
+         border-radius:10px;
+         border-style:groove;
+         height: 180px;
+          
+         margin-bottom: 20px;
+      }
+      .doc{
+         border-radius:10px;
+         border-style:groove;
+         height: 180px;
+        
+         margin-bottom: 20px;
+      }
+      .age{
+         border-radius:10px;
+         border-style:groove;
+         height: 180px;
+         
+         margin-bottom: 20px;  
+      }
+      .exp{
+         border-radius:10px;
+         border-style:groove;
+         height: 180px;
+        
+         margin-bottom: 20px; 
+      }
+      button{
+         font-size: 20px;
+         width: 100px;
+         height: 40px;
+         font-weight: bolder;
+         background-color: rgb(38, 217, 38);
+         color: aliceblue;
+         border-radius: 10px;
+         border-color: none;
+      }
+      button:hover{
+       cursor: pointer;
+       background-color:rgba(142, 138, 138, 0.66);
+      }
+      p{
+         font-size: 20px;
+         margin-left: 10px;
+      }
